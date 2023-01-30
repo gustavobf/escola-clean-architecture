@@ -10,6 +10,8 @@ public class Aluno {
 	private Email email;
 
 	private List<Telefone> telefones = new ArrayList<Telefone>();
+	
+	private String senha;
 
 	public void adicionarTelefone(String ddd, String numero) {
 		this.telefones.add(new Telefone(ddd, numero));
