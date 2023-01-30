@@ -1,4 +1,4 @@
-package escola;
+package br.com.batista.escola.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,8 +22,8 @@ public class Aluno {
 		this.email = email;
 	}
 
-	public CPF getCpf() {
-		return cpf;
+	public String getCpf() {
+		return cpf.getNumero();
 	}
 
 	public void setCpf(CPF cpf) {
@@ -38,8 +38,8 @@ public class Aluno {
 		this.nome = nome;
 	}
 
-	public Email getEmail() {
-		return email;
+	public String getEmail() {
+		return email.getEndereco();
 	}
 
 	public void setEmail(Email email) {

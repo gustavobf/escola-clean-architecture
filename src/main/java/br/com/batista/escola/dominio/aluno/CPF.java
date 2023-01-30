@@ -1,4 +1,4 @@
-package escola;
+package br.com.batista.escola.dominio.aluno;
 
 public class CPF {
 
